@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+html {    
+    width: 100%;
+  }
+header {
+    width: 300px;
+    border-radius: 25px;
+    background: blueviolet;
+    text-align: center;
+    font-size: 150%;
+    justify-content: center;
+    align-items: top;
+    display: flex;
+    margin: 0px;
+    color: white;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    border-width: 5px;
+    border-color: gray;
+}
+section {
+    background: white;
+    text-align: center;
+    text-size-adjust: 30px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    height: 20px;
+}
+article {
+    width: 300px;
+    background: white;
+    text-align: center;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    font-size: 220%;
+    color: black;
+    margin: 0;
+    height: 50px;
+    font-family: cursive;
+}
+div {
+    width: 300px;
+    text-align: center;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    font-size: 120%;
+    height: 35px;
+}    
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    height: 50px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.pronouns {
+    width: 300px;
+    text-align: center;
+    text-size-adjust: 30px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    font-size: 120%;
+    background-color: white;
+    color: black;
+}

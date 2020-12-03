@@ -3,6 +3,11 @@
 }
 html {    
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
   }
 header {
     width: 300px;
@@ -11,7 +16,7 @@ header {
     text-align: center;
     font-size: 150%;
     justify-content: center;
-    align-items: top;
+    align-items: cent;
     display: flex;
     margin: 0px;
     color: white;
@@ -86,4 +91,9 @@ h1 {
     font-size: 120%;
     background-color: white;
     color: black;
+}
+.user-input {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
 }

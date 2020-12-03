@@ -82,7 +82,7 @@ h1 {
 .pronouns {
     width: 300px;
     text-align: center;
-    text-size-adjust: 30px;
+    font-size: 30px;
     padding: 0px;
     justify-content: center;
     align-items: center;
@@ -92,8 +92,13 @@ h1 {
     background-color: white;
     color: black;
 }
+.bottom-margin {
+    height: 50px;
+}
+
 .user-input {
     display: flex;
     justify-content: space-around;
     align-content: space-around;
+    flex-direction: column;
 }

@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-html {    
+html, body {    
     width: 100%;
     display: flex;
     justify-content: center;
@@ -9,10 +9,10 @@ html {
     flex-direction: column;
 
   }
-header {
+.header {
     width: 300px;
     border-radius: 25px;
-    background: blueviolet;
+    background: rgb(177, 164, 189);
     text-align: center;
     font-size: 150%;
     justify-content: center;
@@ -92,13 +92,24 @@ h1 {
     background-color: white;
     color: black;
 }
-.bottom-margin {
-    height: 50px;
+.new-features {
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
 }
 
-.user-input {
+.text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    font-size: 80%;
+    width: 50%;
+}
+.user-color {
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
     flex-direction: column;
+    font-size: 100%;
+    width: 50%;
 }

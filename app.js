@@ -10,24 +10,24 @@ const backgroundColor = document.getElementById('header');
 
 nameIn.addEventListener('click', () => {
     nameIn.value = ''
-});
+})
 pronounsIn.addEventListener('click', () => {
     pronounsIn.value = ''
-});
+})
 button.addEventListener('click', () => {
     name.textContent = nameIn.value
     name.value = ''
-});
+})
 button.addEventListener('click', () => {
     pronouns.textContent = pronounsIn.value
     pronouns.value = ''
-});
+})
 cyan.addEventListener('click', () => {
     backgroundColor.style.background = "cyan"
-});
+})
+pink.addEventListener('click', () => {
+    backgroundColor.style.background = "pink"
+})
 orange.addEventListener('click', () => {
     backgroundColor.style.background = "orange"
-});
-pink.addEventListener('click', () => {
-    backgroundColor.style.backgroundImage = "pink"
-});
+})

@@ -8,12 +8,6 @@ const orange = document.getElementById('button-orange');
 const pink = document.getElementById('button-pink');
 const backgroundColor = document.getElementById('header');
 
-nameIn.addEventListener('click', () => {
-    nameIn.value = ''
-})
-pronounsIn.addEventListener('click', () => {
-    pronounsIn.value = ''
-})
 button.addEventListener('click', () => {
     name.textContent = nameIn.value
     name.value = ''
